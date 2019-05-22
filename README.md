@@ -1,4 +1,5 @@
 # MyInstructions
+- VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtuelenv PROJECTNAME`, Check Version: `virtualenv --version`
 
 
 # Non related commands
