@@ -10,7 +10,7 @@
 	`sudo apt-get -y install python3-pip`
 	Check Version: `pip3 -V`
 
-- VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtuelenv PROJECTNAME`, Check Version: `virtualenv --version`
+- VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
 
 
 # Non related commands
