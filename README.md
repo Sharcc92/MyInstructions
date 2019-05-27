@@ -19,6 +19,14 @@
 - Storage Space of Ubuntu system: `df -h`
 - Reduce storage space by showing list of biggest programms: `du -sh *`
 
+
+# Numpy commands
+- Definie Array: `Z=np.zeros((5,2,3),np.float32)`
+`F=np.array([[[1,2],[3,4],[5,6]],[[7,8],[9,10],[11,12]]])`
+`Z[4][1][1]=5`
+- Array characteristics: Dimensionen Z.shape
+- Reshape to 2x6 Matrix instead of 2x3x2: `F_reshape = np.reshape(F, (F.shape[0], -1))`
+
 # Pip installable Package
 
 
