@@ -26,6 +26,7 @@
 `Z[4][1][1]=5`
 - Array characteristics: Dimensionen Z.shape
 - Reshape to 2x6 Matrix instead of 2x3x2: `F_reshape = np.reshape(F, (F.shape[0], -1))`
+- Mean from a picture `mean_image = np.mean(X_train, axis=0)` X is 1xD instead of NxD
 
 # Pip installable Package
 
