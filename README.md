@@ -27,7 +27,12 @@
 - Array characteristics: Dimensionen Z.shape
 - Reshape to 2x6 Matrix instead of 2x3x2: `F_reshape = np.reshape(F, (F.shape[0], -1))`
 - Mean from a picture `mean_image = np.mean(X_train, axis=0)` X is 1xD instead of NxD
-
+- Pick certain elements from a matrix
+	In [75]:1 `M=np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]]) #NxC (2x3)
+		2 `y=[1,0,1,1] #Nx1
+		3 `n=X.shape[0]
+		4 `M[range(n), y]
+	Out[75]: `array([ 2,  4,  8, 11])`
 # Pip installable Package
 
 
