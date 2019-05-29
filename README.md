@@ -11,10 +11,12 @@
 	Check Version: `pip3 -V`
 
 - VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
-
+# Classes
+- Instance: e.g. `softmax = SoftmaxClassifier()`
 
 # Non related commands
 - List of ROS Services `ros2 service list`
+- timestamp: `tic = time.time()`
 - Switch between windows `byobu` (Start with `byobu`. Use F2 to switch and F3 to create more parallel terminals)
 - Storage Space of Ubuntu system: `df -h`
 - Reduce storage space by showing list of biggest programms: `du -sh *`
