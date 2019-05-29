@@ -12,7 +12,7 @@
 
 - VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
 # Classes
-- Definition: 'class LinearClassifier(object):
+- Definition: `class LinearClassifier(object):
     '"""Description."""
     'def __init__(self):
         'self.W = None
