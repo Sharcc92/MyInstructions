@@ -12,7 +12,16 @@
 
 - VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
 # Classes
+- Definition: 'class LinearClassifier(object):
+    '"""Description."""
+    'def __init__(self):
+        'self.W = None
+    def train(self, Para):
+- Inherent: `class SoftmaxClassifier(LinearClassifier): 
+		`def fct(self, para):
+        		`return 0
 - Instance: e.g. `softmax = SoftmaxClassifier()`
+- Import class from same folder: `from .linear_classifier import LinearClassifier
 
 # Non related commands
 - List of ROS Services `ros2 service list`
