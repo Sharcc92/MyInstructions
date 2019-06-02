@@ -46,6 +46,8 @@
 	Out[75]: `array([ 2,  4,  8, 11])`
 - Array indexing: https://docs.scipy.org/doc/numpy-1.10.0/user/basics.indexing.html
 - mean of array: np.mean(y_train == y_train_pred)
+- Range: array=np.arange(1e-7, 5e-7,1e-7)
+
 # Pip installable Package
 
 
