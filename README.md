@@ -1,4 +1,5 @@
 # MyInstructions
+#Ubuntu commands
 - Install Python 3.6 	(http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/)
 	`sudo add-apt-repository ppa:jonathonf/python-3.6`
 	`sudo apt-get update`
@@ -11,6 +12,7 @@
 	Check Version: `pip3 -V`
 
 - VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
+- Mount Windows drive in Ubuntu shell: `cd /mnt/c/DL/i2dl
 # Classes
 - Definition: `class LinearClassifier(object):
     '"""Description."""
