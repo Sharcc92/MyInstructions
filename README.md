@@ -30,6 +30,7 @@
 - print sorted list: `results={}` `lr, reg =0.3 , 0.2` `results[(lr, reg)] = (0.5, 0.6)` `lr, reg =0.1 , 0.4` `results[(lr, reg)] = (0.7, 0.8)` `print(results)` `for (lr, reg) in sorted(results): 
 `train_accuracy, val_accuracy = results[(lr, reg)]
  print('lr %e reg %e train accuracy: %f val accuracy: %f' % (lr, reg, train_accuracy, val_accuracy))`
+ - list: `as=np.arange(1e-1, 10e-1,1e-1)` with `for a in as:` or alternative `steps_lr = 3#20` `lr = [1e-3, 1e-4]` `for i in np.linspace(lr[0], lr[1], steps_lr):`
 
 # Non related commands
 - List of ROS Services `ros2 service list`
