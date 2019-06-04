@@ -15,7 +15,7 @@
 - Mount Windows drive in Ubuntu shell: `cd /mnt/c/DL/i2dl
 # Classes
 - Definition: `class LinearClassifier(object):
-    '"""Description."""
+    `"""Description."""
     'def __init__(self):
         'self.W = None
     def train(self, Para):
@@ -26,7 +26,10 @@
 - Import class from same folder: `from .linear_classifier import LinearClassifier
 
 # Functions:
-- lambda: relu = lambda val: np.maximum(0, val)
+- lambda: `relu = lambda val: np.maximum(0, val)`
+- print sorted list: `results={}` `lr, reg =0.3 , 0.2` `results[(lr, reg)] = (0.5, 0.6)` `lr, reg =0.1 , 0.4` `results[(lr, reg)] = (0.7, 0.8)` `print(results)` `for (lr, reg) in sorted(results): 
+`train_accuracy, val_accuracy = results[(lr, reg)]
+ print('lr %e reg %e train accuracy: %f val accuracy: %f' % (lr, reg, train_accuracy, val_accuracy))`
 
 # Non related commands
 - List of ROS Services `ros2 service list`
