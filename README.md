@@ -13,6 +13,10 @@
 
 - VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
 - Mount Windows drive in Ubuntu shell: `cd /mnt/c/DL/i2dl
+# Github
+- check branch: `git status`
+- pull from git repo: `git pull`
+- change brach `git checkout`
 # Classes
 - Definition: `class LinearClassifier(object):
     `"""Description."""
