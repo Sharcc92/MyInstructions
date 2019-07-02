@@ -13,6 +13,7 @@
 
 - VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
 - Mount Windows drive in Ubuntu shell: `cd /mnt/c/DL/i2dl
+- See hidden folders `ls -a`
 # Github
 - check branch: `git status`
 - pull from git repo: `git pull`
@@ -35,6 +36,7 @@
 `train_accuracy, val_accuracy = results[(lr, reg)]
  print('lr %e reg %e train accuracy: %f val accuracy: %f' % (lr, reg, train_accuracy, val_accuracy))`
  - list: `as=np.arange(1e-1, 10e-1,1e-1)` with `for a in as:` or alternative `steps_lr = 3#20` `lr = [1e-3, 1e-4]` `for i in np.linspace(lr[0], lr[1], steps_lr):`
+ - get indices and values from a list (with startvalue from indices with 1) `Z=[100, 100]`, `for i, v in enumerate(Z, 1):` `print("l: ",l)` `print("d:",d)`
 
 # Non related commands
 - List of ROS Services `ros2 service list`
