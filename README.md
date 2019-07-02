@@ -37,6 +37,8 @@
  print('lr %e reg %e train accuracy: %f val accuracy: %f' % (lr, reg, train_accuracy, val_accuracy))`
  - list: `as=np.arange(1e-1, 10e-1,1e-1)` with `for a in as:` or alternative `steps_lr = 3#20` `lr = [1e-3, 1e-4]` `for i in np.linspace(lr[0], lr[1], steps_lr):`
  - get indices and values from a list (with startvalue from indices with 1) `Z=[100, 100]`, `for i, v in enumerate(Z, 1):` `print("l: ",l)` `print("d:",d)`
+ - define a dictionary: `word_to_ind = dict(), for i in range(len(array)): word_to_ind[array[i]] = i`
+- make a config file Make a config file with default values: in main `config = {'a': 1e-3, 'b': v}`, `next_w, _ = sgd_momentum(w, dw, config=config)` and in function `def sgd_momentum(w, dw, config=None):` , `if config is None: config = {}`, `config.setdefault('a', 1e-2) `,`config.setdefault('momentum', 0.9) `, `mue = config['momentum']`
 
 # Non related commands
 - List of ROS Services `ros2 service list`
