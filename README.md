@@ -67,6 +67,27 @@
 
 # Pip installable Package
 
+# Unsorted
+Example fct with kwargs:
+self.update_rule = kwargs.pop('update_rule', 'sgd')
+
+What does // and % mean?
+num_batches = N // batch_size % is division with abrunden
+        if N % batch_size != 0: %(mod fuction)
+
+Makes y_pred = np.hstack(y_pred) to 0,1?
+
+What is batch normalization, dropout?
+
+Why makes it deterministic? seed: If not None, then pass this random seed to the dropout layers. This
+          will make the dropout layers deteriminstic so we can gradient check the
+          model.
+Inititialze from a std distr.:  np.random.randn(input_dim, hidden_dim)
+Get indices and values from a matrix: for l, d in enumerate(hidden_dims, 1):
+
+
+another option for a for loop for l in range(1, self.num_layers) or for i in range(self.num_layers - 1, 0, -1):
+Save sth in a list e.g. outputs of a function from a for loop: caches = [] before for-loop: caches.append(x) and get the last items with c=temp.pop()
 
 
 [Instructions](https://dzone.com/articles/executable-package-pip-install)
