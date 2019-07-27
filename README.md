@@ -18,6 +18,7 @@
 - check branch: `git status`
 - pull from git repo: `git pull`
 - change brach `git checkout`
+- add file `git add $filename` then `git commit -m "$message"`
 # Classes
 - Definition: `class LinearClassifier(object):
     `"""Description."""
