@@ -19,6 +19,7 @@
 - pull from git repo: `git pull`
 - change brach `git checkout`
 - add file `git add $filename` then `git commit -m "$message"` then `git push origin master`
+- share folder between linux embedded in windows: "cd /mnt/c/$shared folder name$"
 # Classes
 - Definition: `class LinearClassifier(object):
     `"""Description."""
