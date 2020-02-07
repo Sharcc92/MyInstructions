@@ -14,6 +14,10 @@
 	Check Version: `pip3 -V`
 - Install VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
 - Install Anaconda: (https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
+	Test installation: `conda list`
+	Create new env: `conda create --name NEW_ENV python=3`
+	Activate new env: `conda activate NEW_ENV` (e.g. anomaly1)
+	Deactivate env: `conda deactivatecon`
 	Install Pytorch in Conda: `conda install -c pytorch pytorch`
 - Mount Windows drive in Ubuntu shell: `cd /mnt/c/DL/i2dl
 - See hidden folders `ls -a`
