@@ -21,6 +21,9 @@
 	Install Pytorch in Conda: `conda install -c pytorch pytorch`
 - Mount Windows drive in Ubuntu shell: `cd /mnt/c/DL/i2dl
 - See hidden folders `ls -a`
+# Pytorch
+- Tutorial: (https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+- 
 # Github
 - check branch: `git status`
 - pull from git repo: `git pull`
