@@ -1,6 +1,7 @@
 # MyInstructions
 # Ubuntu commands
 - Check ubuntu version: ` lsb_release -a`
+- Check Python version: `python -V` or `python3 -V`
 - Install Python 3.6 	(http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/)
 	`sudo add-apt-repository ppa:jonathonf/python-3.6`
 	`sudo apt-get update`
@@ -11,8 +12,9 @@
 	`sudo apt-get update`
 	`sudo apt-get -y install python3-pip`
 	Check Version: `pip3 -V`
-
-- VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
+- Install VirtualEnvironment: `pip3 install virtualenv`, Init Project: `virtualenv -p python3 PROJECTNAME`, Check Version: `virtualenv --version`
+- Install Anaconda: (https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
+	Install Pytorch in Conda: `conda install -c pytorch pytorch`
 - Mount Windows drive in Ubuntu shell: `cd /mnt/c/DL/i2dl
 - See hidden folders `ls -a`
 # Github
