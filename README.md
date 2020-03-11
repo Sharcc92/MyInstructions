@@ -23,12 +23,18 @@
 - See hidden folders `ls -a`
 # Pytorch
 - Tutorial: (https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
-- Funktion: kwargs: 
+- Function: kwargs: 
 	in function header (* collects all the positional arg in a tuple, ** collects all the keyword args in a dict) 
 	e.g. `functionA(*a,**kw):`, `functionA(1, 2, a=1, b=2)` results in a=(1,2),kw={'a': 1,'b':2}
 	in a function call (* unpacks a list or tuple into position args, ** unpacks a dictionary into keyword args)
 	e.g. lis=[1, 2], dic={'a': 10, 'b':20}, `functionA(*lis, **dic):` results in (1, 2) as args and {'a': 10, 'b': 20}
-- 
+- Matlplotlib+Glob: get files from directory 
+	`images=glob.glob('../generated/*.jpg')
+	`for i, image in enumerate(images,1):         
+	`image = Image.open(image)
+        `plt.subplot(1,len(images),i)
+        `plt.test(0.5,0.5,str((2,3,i)),fontsize=18,ha='center')
+	`plt.show()
 # Github
 - check branch: `git status`
 - pull from git repo: `git pull`
