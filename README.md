@@ -37,6 +37,10 @@
 - change brach `git checkout`
 - add file `git add $filename` then `git commit -m "$message"` then `git push origin master`
 - share folder between linux embedded in windows: "cd /mnt/c/$shared folder name$"
+- delete local changes: `git checkout .` - Removes Unstaged Tracked files ONLY [Type 2]
+`git clean -f` - Removes Unstaged UnTracked files ONLY [Type 3]
+`git reset --hard` - Removes Staged Tracked and UnStaged Tracked files ONLY[Type 1, Type 2]
+`git stash -u` - Removes all changes [Type 1, Type 2, Type 3]
 # Classes
 - Definition: `class LinearClassifier(object):
     `"""Description."""
