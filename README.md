@@ -35,7 +35,7 @@
 - check branch: `git status`
 - pull from git repo: `git pull`
 - change brach `git checkout`
-- add file `git add $filename` then `git commit -m "$message"` then `git push origin master`
+- add file `git add $filename` then `git commit -m "$message"` then `git push origin $branchname` (e.g. master)
 - share folder between linux embedded in windows: "cd /mnt/c/$shared folder name$"
 - delete local changes: `git checkout .` - Removes Unstaged Tracked files ONLY [Type 2]
 `git clean -f` - Removes Unstaged UnTracked files ONLY [Type 3]
